@@ -30,7 +30,7 @@ public class Perceptron {
 		for(int i = 0; i < this.w.size(); i++) {
 			
 			res += this.w.get(i) * this.x.get(j).get(i);
-			
+
 		}
 		
 		if (res >=0) {

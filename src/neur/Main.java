@@ -27,9 +27,9 @@ public class Main {
 		
 		
 		Vector<Integer> Z = new Vector<Integer>();
-		Y.add(1);
-		Y.add(3);
-		Y.add(0);
+		Z.add(1);
+		Z.add(3);
+		Z.add(0);
 		
 		Vector<Integer> J = new Vector<Integer>();
 		J.add(1);
