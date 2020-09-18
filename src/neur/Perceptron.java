@@ -50,10 +50,12 @@ public class Perceptron {
 		for(int i = 0; i < this.w.size(); i++){
 			
 			double v = this.w.get(i) + this.alpha * (this.y.get(j) - hx) * this.x.get(j).get(i);
+			v = (double)Math.round(v * 100000) / 100000 ;
 			
 			this.w.set(i, v);
 
 		}
+		System.out.println(this.w);
 		
 	}
 	
