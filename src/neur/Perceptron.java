@@ -55,7 +55,6 @@ public class Perceptron {
 			this.w.set(i, v);
 
 		}
-		System.out.println(this.w);
 		
 	}
 	
